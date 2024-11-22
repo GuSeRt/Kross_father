@@ -1,6 +1,5 @@
 pyinstaller==6.10.0
 Flask==3.0.3
 Kivy==2.3.0
-build-essential
 buildozer
 cython
