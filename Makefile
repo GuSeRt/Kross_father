@@ -28,7 +28,7 @@ linux:
 	@echo
 	@echo "Installing python, pip, PyInstaller...\n"
 	@apt install -y python3 python3-pip make
-	@pip install --break-system-packages -r requirements.txt
+	@pip install -r requirements.txt
 	@echo "Done\n"
 	@echo "Building Binary file..."
 	@$(PYINSTALLER) $(LINUX_OPTIONS) $(LINUX_SOURCE) --distpath $(LINUX_OUTPUT)
